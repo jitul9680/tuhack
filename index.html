@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./assets/img/ihack_logo_whiteBG.png"type="image/x-icon">
+    <title>TU_Hack</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/1.0.1/LineIcons.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Slicknav -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  <link rel="icon" href="https://ecell.in/esummit/favicon.ico" type="image/x-icon"/>
+    <style type="text/css">
+      @media only screen and (max-width: 800px){
+        #carousel-caption{
+          padding-top: 200px;
+        }
+      }
+      @media only screen and (min-width: 800px){
+        #carousel-caption{
+          padding-bottom: 50px;
+        }
+      }
+      
+      .btn-static {
+        background-color: #6674A3;
+        position: relative;
+        z-index: 1;
+      }
+      .btn-static:hover {
+        color: #fff;
+        background: #303750;
+        box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+        transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+      }
+      .btn-common {
+        background-color: #6674A3;
+        position: relative;
+        z-index: 1;
+      }
+
+      .btn-common:hover {
+        color: #fff;
+        background: #303750;
+        box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+        transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+      }
+
+      #devfolio-apply-now {
+          -ms-flex-align: center;
+          -webkit-box-align: center;
+          align-items: center;
+          background-color: #3770FF;
+          border-radius: 3px;
+          border: none;
+          color: #FFFFFF;
+          cursor: pointer;
+          display: -ms-flexbox;
+          display: -webkit-box;
+          display: flex;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+          font-size: 18px;
+          font-weight: 600;
+          padding: 12px 20px;
+          text-align: center;
+      }
+
+      #devfolio-apply-now:not([disabled]) {
+          cursor: pointer;
+      }
+
+      #devfolio-apply-now:hover {
+          background-color: #2954BF !important;
+      }
+
+      #devfolio-apply-now .logo {
+          /* Please keep the color of Devfolio logo mark either white (#FFFFFF) or black (#000000) */
+          fill: white ;
+      }
+
+      #cover{
+
+      display: block !important;
+      }
+      #cover_mobile {
+
+      display: none !important;
+      }
+      @media screen and (max-width: 800px){
+      #cover{
+
+      display: none !important;
+      }
+      #cover_mobile {
+
+      display: block !important;
+      }
+
+      }
+
+      .speaker_img {
+        height :272px;
+        object-fit: cover;
+        width: 100%;
+      }
+
+    </style>
+
+<script type="text/javascript">
+  
+
+</script>
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+              <span class="icon-menu"></span>
+            </button>
+            <a href="index.html" class="navbar-brand"><img src="assets/img/rsz_ihack_logo.png" alt=""></a>
+          </div>
+          <div class="collapse navbar-collapse" id="main-navbar">
+            <ul class="navbar-nav mr-auto w-100 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header-wrap">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#team">
+                    Speakers & Judges
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#schedules">
+                    Schedule
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">
+                  Faq
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-us">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mobile Menu Start -->
+        <ul class="mobile-menu">
+          <li>
+            <a class="page-scrool" href="#header-wrap">Home</a>
+          </li>
+          <li>
+            <a class="page-scrool" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#faq">Faq</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#google-map-area">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Main Carousel Section Start -->
+      <div id="main-slide" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+<!--           <li data-target="#main-slide" data-slide-to="1"></li>
+          <li data-target="#main-slide" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="cover" class="d-block w-100 cover" src="assets/img/slider/pice.jpg" alt="First slide">
+            <img id="cover_mobile" class="d-block w-100 cover" src="assets/img/slider/ihack_mobile.jpg" alt="First slide">
+            
+            <div id="carousel-caption" class="carousel-caption d-md-block row">
+              <div class="col-md-4" style="text-align: left;">  
+                <p class="fadeInUp wow" data-wow-delay=".6s">Tezpur University presents </p>
+                <h1 class="wow fadeInDown heading" data-wow-delay=".4s">TU_Hack </h1>
+                <h6 class="wow fadeInDown " data-wow-delay=".4s">Hackathon</h6>
+                <h6 class="wow fadeInDown " data-wow-delay=".4s">20th Aug 19 |  Tezpur University</h6>
+                <br>
+                <button id="devfolio-apply-now" class="fadeInLeft wow  btn-common " style="text-transform: none;"><a href="https://google.co.in" class="w3-button w3-black">Apply Now</a></button>
+                             
+                <!-- <a href="#" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Learn More</a> -->               
+              </div>
+ 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <section id="services" class="services section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Why Participate?</h1>
+              <h6 class="wow fadeInDown" data-wow-delay="0.2s">National Level Hackathon</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row services-wrapper">
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
+              <div class="icon">
+                <img src="assets/img/Inspiration.png" width="100px">
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Get Inspired</a></h3>
+                <p>Code with the best.....get instructed by teachers</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
+              <div class="icon">
+                <img src="assets/img/People.png" width="100px">
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Meet New Faces</a></h3>
+                <p>Interact with super creative minds and increase your network</p>
+              </div>
+            </div>
+          </div>
+          <!-- Services item -->
+          <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
+            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
+              <div class="icon">
+                <img src="assets/img/Insight.png" width="100px">
+              </div>
+              <div class="services-content">
+                <h3><a href="#">Fresh Tech Insights</a></h3>
+                <p>Get priceless insights from eminent speakers and mentors from one of the leading companies and startups in the space</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+    
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">About The Hackathon</h1>
+              <h6 class="wow fadeInDown" data-wow-delay="0.2s" style="padding:20px">At TU_Hack 2019, we bring together Tezpur's best coders, developers, designers, innovators, creators and entrepreneurs of tomorrow. TU_Hack is geared up for those who are passionate about building, designing and innovating. It is a 10 Hr event where the enthusiasts meet, develop and compete in the product prototyping competition. I_Hack comprises of 3 parallel tracks :</h6>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding:20px">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="assets/img/about/blockchain.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Blockchain Track</a></h3>
+                <p>Ever felt awestruck by the immense possibilities blockchain might bring in the future? Ever wanted to dive into this complicated but beautiful technology? We have got you covered. With the increasing interest and applications of Web 3.0, get an opportunity to build Decentralized Applications over Ethereum and EOS among the best Dapp developers and crytographers. This track will be an open track with no pre-defined problem statement</p>
+                <span style="display: block" class="btn btn-static btn-rm" href="#">No Specific Problem Statement</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="assets/img/about/software.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Software track</a></h3>
+                <p>Can't control the geeky entrepreneurial side of yours? always wanted to build great tech and and optimize things, but always were a little confused where to start with? We have something for you as well. The Software Track will have a pre-defined problem statement for which hackers will have to come up with their best solution in 30 hours and the most efficient and practical solution will be the winner. The problem statement will be released prior to the hackathon. </p>
+                <a style="display: block" class="btn btn-common btn-rm" target="_blank" href="./assets/PS/Software PS.pdf">Problem Statement</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="about-item">
+              <img class="img-fluid" src="assets/img/about/hardware.jpg" alt="">
+              <div class="about-text">
+                <h3><a href="#">Hardware Track</a></h3>
+                <p>Want to be the next Rancho? In too deep a relationship with the electronic world? Always more excited about MIPS than Movies? If you are in love with the microprocessors, chips, controllers and ICs, and feel left out at most hackathons because you don't like to code, then this track is for you. You will be provided hardware components to build upon and will have to come up with an awesome product of your own. </p>
+                <a style="display: block" class="btn btn-common btn-rm" target="_blank" href="./assets/PS/Hardware PS.pdf">Problem Statement</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Counter Area Start-->
+    <section class="counter-section section-padding">
+      <div class="container">
+        <div class="row">
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.3s">
+              <div class="icon"><i class="lni-map"></i></div>
+              <p>Tezpur University</p>
+              <span>Tezpur, Assam</span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.6s">
+              <div class="icon"><i class="lni-timer"></i></div>
+              <p>.....................</p>
+              <span>...................</span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="0.9s">
+              <div class="icon"><i class="lni-users"></i></div>
+              <p>2 Tracks</p>       
+              <span>..................</span>
+            </div>
+          </div>
+          <!-- Counter Item -->
+          <div class="col-md-6 col-lg-3 col-xs-12 work-counter-widget text-center">
+            <div class="counter wow fadeInRight" data-wow-delay="1.2s">
+              <div class="icon"><i class="lni-rupee"></i></div>
+              <p>...................</p>
+              <span>Worth Prizes at stake</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter Area End-->
+
+    <!-- Schedule Section Start -->
+    
+
+    <!-- Team Section Start -->
+    <section id="team" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Judges</h1>
+              <!-- <p class="wow fadeInDown" data-wow-delay="0.2s">Global Grand Event on Digital Design</p> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <a>
+            <div class="col-sm-4 col-md-4 col-lg-3">
+                <div class="team-item wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="team-img">
+                    <img class="img-fluid speaker_img" src="assets/img/team/ak.jpg" alt="">
+                    <div class="team-overlay">
+                      
+                    </div>
+                  </div>
+                  <div class="info-text">
+                    <h3><a href="#">Arindam Karmakar</a></h3>
+                    <p>CSE dept, TU</p>
+                  </div>
+                </div>
+            </div>
+          </a>
+          
+          
+          <a>
+            <div class="col-sm-4 col-md-4 col-lg-3" >
+            
+                <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="team-img">
+                    <img class="img-fluid speaker_img" src="assets/img/team/sk.jpg" alt="">
+                    <div class="team-overlay">
+                     
+                    </div>
+                  </div>
+                  <div class="info-text">
+                    <h3><a href="#">Sobhanjana Kalita</a></h3>
+                    <p>CSE dept, TU</p>
+                  </div>
+                </div>
+                
+              </div>
+          </a>
+          
+          <a>
+            <div class="col-sm-4 col-md-4 col-lg-3" >
+            
+                <div class="team-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="team-img">
+                    <img class="img-fluid speaker_img" src="assets/img/team/sp.jpg" alt="">
+                    <div class="team-overlay">
+                      
+                    </div>
+                  </div>
+                  <div class="info-text">
+                    <h3><a href="#">Nayanmoni Kakoty</a></h3>
+                    <p>ECE Dept, TU</p>
+                  </div>
+                </div>
+                
+              </div>
+          </a> 
+        </div>
+      </div>
+    </section>
+   
+
+    <!-- Sponsors Section End -->
+    
+    <!-- Partners section starts-->
+
+    <!-- Team Section End -->
+
+    <!-- Timeline starts -->
+    <!--
+    <section id="schedules" class="schedule section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title-header text-center">
+                <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedule</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+              </div>
+            </div>
+          </div>
+          <div class="schedule-area row wow fadeInDown" data-wow-delay="0.3s">
+            <div class="schedule-tab-title col-md-3 col-lg-3 col-xs-12">
+              <div class="table-responsive">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="monday-tab" data-toggle="tab" href="#blockchain" role="tab" aria-controls="monday" aria-expanded="true">
+                      <div class="item-text">
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px; padding-top: 7px">Blockchain</h4>
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px">Track</h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="tuesday-tab" data-toggle="tab" href="#software" role="tab" aria-controls="tuesday">
+                      <div class="item-text">
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px; padding-top: 7px">Software</h4>
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px">Track</h4>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="wednesday-tab" data-toggle="tab" href="#hardware" role="tab" aria-controls="wednesday">
+                      <div class="item-text">
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px; padding-top: 7px">Hardware</h4>
+                        <h4 style="align-content: center; text-align: center; padding-bottom: 0px">Track</h4>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="schedule-tab-content col-md-9 col-lg-9 col-xs-12 clearfix">
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="blockchain" role="tabpanel" aria-labelledby="monday-tab">
+                  <div id="accordion">
+                    <div class="card">
+                      <div id="headingOne">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/reg.png" alt="">
+                          </div>                     
+                          <span class="time"><b>8:00 am - 9:15 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Registrations</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Confirm your esteemed presence at the venue...</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingTwo">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/team/freddie.jpg" alt="">
+                          </div>                     
+                          <span class="time"><b>9:15 am - 9:40 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Decentralized AI Marketplace</h4>
+                          <h5 class="name">Fredrick Busslers</h5>
+                        </div>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>AI and Blockchain are 2 of the hottest topics today in the tech industry. Join Fredrick Bustlers as he takes you into the world of Decentralized AI, its potenial and future prospects.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingThree">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/team/grace.jpg" alt="">
+                          </div>                     
+                          <span class="time"><b>9:40 am - 10:05 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Developer Experience in the Blockchain Space</h4>
+                          <h5 class="name">Grace Guo</h5>
+                        </div>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Ever wondered how it feels like to be a Blockchain Developer? Get a chance to know what the Blockchain Space has to offer to a keen developer from Grace Guo, the Head of Business Development at Dunya Labs.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingFour">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/team/anurag_sqr.jpg" alt="">
+                          </div>                     
+                          <span class="time"><b>10:05 am - 11:00 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Layer 2 Scaling Solutions + Dagger API Demo</h4>
+                          <h5 class="name">Anurag Arjun, Matic Network</h5>
+                        </div>
+                      </div>
+                      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Discussion on why we need layer 2 scaling and what are the various solutions being developed. This will be followed by an introduction to Matic Network and the Dagger API Demo, used to get realtime Ethereum notifications for your DApps.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingFive">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/team/katta.jpg" alt="">
+                          </div>                     
+                          <span class="time"><b>11:00 am - 11:50 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Developing & Deploying Smart Contracts on EOS Blockchain</h4>
+                          <h5 class="name">Srivatsa Katta, Dunya Labs</h5>
+                        </div>
+                      </div>
+                      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>EOS has emerged to be a scalable blockchain implementing DPOS, that currently has one of the largest communities in the world. Dunya Labs, who have brought EOS to India with their Catalyst Series, are all set to train you to develop your own DApps on the EOS blockchain.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingSix">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/team/shakti_sqr.jpg" alt="">
+                          </div>                     
+                          <span class="time"><b>11:50 am - 12:00 pm</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Making Submissions on Devfolio</h4>
+                          <h5 class="name">Shakti Goap</h5>
+                        </div>
+                      </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Shakti Goap, the Founder of Devfolio would be there to guide hackers about submission of their projects on the Devfolio platform.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingSeven">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="./assets/img/timeline_icons/hacking.jpg" alt="Hacking Begins">
+                          </div>                     
+                          <span class="time"><b>12:00 pm</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Hacking Begins!</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>After all the talks and workshops, now it is your turn to Hack! Innovate! Disrupt!</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingEight">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/judging.png" alt="Judging Begins">
+                          </div>                     
+                          <span class="time"><b>3:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Judging Begins</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>After 28 gruelling hours of hacking, this is the time when you get a chance to showcase what you have built to our esteemed Judges.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="card">
+                      <div id="headingNine">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/prize.png" alt="Prize Distribution">
+                          </div>                     
+                          <span class="time"><b>5:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Prize Distribution and Demo by Winning Teams</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>A great hack deserves to be rewarded! This is when we feliciate the Winners from each track with a hefty prize. Winning teams get a chance to present their project to the entire audience!</p>
+                          <div class="location">
+                            <span>Location:</span> LA 201, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="software" role="tabpanel" aria-labelledby="tuesday-tab">
+                  <div id="accordion2">
+                    <div class="card">
+                      <div id="headingOne2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne2" aria-expanded="false" aria-controls="collapseOne1">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/reg.png" alt="">
+                          </div>                     
+                          <span class="time"><b>8:00 am - 9:15 pm</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Registrations</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseOne2" class="collapse show" aria-labelledby="headingOne2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Confirm your estemmed presence at the venue...</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingTwo2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/sponsors/wipro.png" alt="">
+                          </div>                     
+                          <span class="time"><b>9:15 am - 9:30 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Problem Statement Discussion by Wipro</h4>
+                          <h5 class="name">Wipro</h5>
+                        </div>
+                      </div>
+                      <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Wipro, our sponsor for the Software Track will announce the Problem Statement for I_Hack Software Track!</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingThree-2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree-2" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="./assets/img/team/kc.jpg" alt="KC">
+                          </div>                     
+                          <span class="time"><b>TBA</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Google Cloud API Demonstration</h4>
+                          <h5 class="name">KC Ayyagari</h5>
+                        </div>
+                      </div>
+                      <div id="collapseThree-2" class="collapse" aria-labelledby="headingThree-2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>TBA</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingThree2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="./assets/img/timeline_icons/hacking.jpg" alt="Hacking Begins">
+                          </div>                     
+                          <span class="time"><b>11:00 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Hacking Begins!</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Put your tinking caps on and get ready! Now it is your turn to Hack! Innovate! Disrupt!</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingFour2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour2" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/judging.png" alt="Judging Begins">
+                          </div>                     
+                          <span class="time"><b>3:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Judging Begins!</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseFour2" class="collapse" aria-labelledby="headingFour2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>After 30 gruelling hours of hacking, this is the time when you get a chance to showcase what you have built to our esteemed Judges.</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingFive2">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive2" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/prize.png" alt="Prizes">
+                          </div>                     
+                          <span class="time"><b>5:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Prize Distribution and Demo by Winning Teams</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseFive2" class="collapse" aria-labelledby="headingFive2" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>A great hack deserves to be rewarded! This is when we feliciate the Winners from each track with a hefty prize. Winning teams get a chance to present their project to the entire audience!</p>
+                          <div class="location">
+                            <span>Location:</span> LA 202, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="hardware" role="tabpanel" aria-labelledby="tuesday-tab">
+                  <div id="accordion2">
+                    <div class="card">
+                      <div id="headingOne3">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne1">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/reg.png" alt="">
+                          </div>                     
+                          <span class="time"><b>8:00 am - 9:15 pm</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Registrations</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseOne3" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Confirm your esteemed presence at the venue...</p>
+                          <div class="location">
+                            <span>Location:</span> LC 001, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingTwo3">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/sponsors/infenion.png" alt="">
+                          </div>                     
+                          <span class="time"><b>9:15 am - 9:30 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Problem Statement Discussion by Infineon</h4>
+                          <h5 class="name">Infineon</h5>
+                        </div>
+                      </div>
+                      <div id="collapseTwo3" class="collapse" aria-labelledby="headingTwo3" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Infineon, our sponsor for the Hardware Track will announce the Problem Statement for I_Hack Hardware Track!</p>
+                          <div class="location">
+                            <span>Location:</span> LC 001, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingThree3">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="./assets/img/timeline_icons/hacking.jpg" alt="Hacking Begins">
+                          </div>                     
+                          <span class="time"><b>10:00 am</b></span>
+                          <span class="time" style="float: right">19th January</span>
+                          <h4>Hacking Begins!</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>Put your tinking caps on and get ready! Now it is your turn to Hack! Innovate! Disrupt!</p>
+                          <div class="location">
+                            <span>Location:</span> LC 001, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingFour3">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFour3" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/judging.png" alt="Judging Begins">
+                          </div>                     
+                          <span class="time"><b>3:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Judging Begins!</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseFour3" class="collapse" aria-labelledby="headingFour3" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>After 30 gruelling hours of hacking, this is the time when you get a chance to showcase what you have built to our esteemed Judges.</p>
+                          <div class="location">
+                            <span>Location:</span> LC 001, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div id="headingFive3">
+                        <div class="collapsed card-header" data-toggle="collapse" data-target="#collapseFive3" aria-expanded="false" aria-controls="collapseTwo2">
+                          <div class="images-box">
+                            <img class="img-fluid" src="assets/img/timeline_icons/prize.png" alt="Prizes">
+                          </div>                     
+                          <span class="time"><b>5:00 pm</b></span>
+                          <span class="time" style="float: right">20th January</span>
+                          <h4>Prize Distribution and Demo by Winning Teams</h4>
+                          <h5 class="name"></h5>
+                        </div>
+                      </div>
+                      <div id="collapseFive3" class="collapse" aria-labelledby="headingFive3" data-parent="#accordion2">
+                        <div class="card-body">
+                          <p>A great hack deserves to be rewarded! This is when we feliciate the Winners from each track with a hefty prize. Winning teams get a chance to present their project to the entire audience!</p>
+                          <div class="location">
+                            <span>Location:</span> LC 001, Lecture Hall Complex
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  -->
+      <!-- Schedule Section End -->
+    <!-- Ask Question Section Start -->
+    <section id="faq" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Have Questions?</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionOne" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> Who can attend?
+                  </div>
+                </div>
+                <div id="questionOne" class="collapse" aria-labelledby="headingOne" data-parent="#question">
+                  <div class="card-body">
+                   Current students of any college of India as well as working professionals.
+
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <div class="header-title" data-toggle="collapse" data-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                      <i class="lni-pencil"></i>  How big the teams can be?
+
+
+                    </div>
+                </div>
+                <div id="questionTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#question">
+                  <div class="card-body">
+                    A team should contain 3-4 members. Individuals can also register in the hackathon but however they won’t be allowed to participate individually.
+                  </div>
+                </div>
+              </div>
+              
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThree" aria-expanded="false" aria-controls="questionFour">
+                   <i class="lni-pencil"></i> How much does it cost?
+
+                  </div>
+                </div>
+                <div id="questionThree" class="collapse" aria-labelledby="headingThree" data-parent="#question">
+                  <div class="card-body">
+                    This event is completely free! We’ll provide you with a plethora of resources and tools to hack with.
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+            <div class="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne2">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionOne2" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> What should I bring to the venue?
+
+
+                  </div>
+                </div>
+                <div id="questionOne2" class="collapse" aria-labelledby="headingOne2" data-parent="#question">
+                  <div class="card-body">
+                    You need to carry your College/Company ID Card, laptop,phone.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo2">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionTwo2" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> When will the applications close?
+
+                  </div>
+                </div>
+                <div id="questionTwo2" class="collapse" aria-labelledby="headingTwo2" data-parent="#question">
+                  <div class="card-body">
+                    The applications will close on 11:59 pm on 15th January 2019. We will select the applications on the go and acceptance will be sent periodically. Once accepted, you will have to confirm your presence in 2 days.  
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree2">
+                  <div class="header-title" data-toggle="collapse" data-target="#questionThree2" aria-expanded="true" aria-controls="collapseOne">
+                    <i class="lni-pencil"></i> Will snacks/food be provided at the Hackathon?
+
+                  </div>
+                </div>
+                <div id="questionThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#question">
+                  <div class="card-body">
+                    Although we won't provide food at the Hackathon, but there will be stalls around the venue where you could have a sumptuous meal!  
+                  </div>
+                </div>
+              </div>              
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer id="contact-us" class="footer-area section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+            <a href="code-of-conduct/"><h3>Code of conduct</h3></a>
+            <p> Still got some queries? mail us at <a href = "mailto:ihack@ecell.in" target = "_blank" style = "color: #909497">ihack@ecell.in</a>
+            </p>
+          </div>
+          
+         
+          <div style="text-align: center;" class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+            
+            <div class="widget" style="text-align: center;">
+              <h5 class="widget-title">FOLLOW US ON</h5>
+              <ul class="footer-social">
+                <li><a class="facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="slack" href="#"><i class="fab fa-slack"></i></a></li>
+                <!-- <li><a class="google-plus" href="https://www.instagram.com/ecell_iitb/?hl=en"><i class="lni-instagram-filled"></i></a></li> -->
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" style="text-align: center;"  data-wow-delay="0.4s">
+            <h3 style="text-align: center;">QUICK LINKS</h3>
+            <ul style="text-align: center;">
+              <!-- <li><a href="#services">Why participate</a></li> -->
+              <li><a href="#about">About I_Hack</a></li>
+              <li><a href="#team">Our Speakers & Judges</a></li>
+              <li><a href="#sponsors">Sponsors</a></li>
+              <li><a href="#partners-div">Partners</a></li>
+              <li><a href="#schedules">Event Schedule</a></li>
+              <li><a href="#faq">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+   
+    <a href="#" class="back-to-top">
+    	<i class="lni-chevron-up"></i>
+    </a>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/googlemaps.js"></script> -->
+    <!-- <script src="assets/js/form-validator.min.js"></script> -->
+    <!--  <script src="assets/js/contact-form-script.min.js"></script> -->
+    <script src="assets/js/map.js"></script>
+    <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCsa2Mi2HqyEcEnM1urFSIGEpvualYjwwM"></script> 
+      
+    <script type="text/javascript">
+      
+document.addEventListener('DOMContentLoaded', function () {
+    let devfolioOptions = {
+        buttonSelector: '#devfolio-apply-now',
+        key: 'ihack',
+    }
+    // console.log("document loaded ");
+    let script = document.createElement('script');
+    script.src = "https://apply.devfolio.co";
+    document.head.append(script);
+
+    script.onload = function () {
+      // console.log(devfolioOptions);
+        // console.log("script loaded ");
+        new Devfolio(devfolioOptions);
+        // console.log("script loaded ");
+    }
+
+    script.onerror = function () {
+        document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+            window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+        });
+    }
+});
+    </script>  
+  </body>
+</html>
